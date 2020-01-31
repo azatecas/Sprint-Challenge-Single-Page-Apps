@@ -30,7 +30,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 
 ***********************************************************************
-> Answer: 
+> Answer:  Client side routing is beneficial by not having to wait on server requests, it feels almost instanteneos to the user with no loading.
 
 ## Project Set Up
 
