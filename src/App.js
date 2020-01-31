@@ -4,6 +4,7 @@ import { Route, NavLink } from 'react-router-dom';
 
 import WelcomePage from './components/WelcomePage';
 import CharacterList from './components/CharacterList';
+import SearchForm from './components/SearchForm';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <WelcomePage/>
       </Route>
       <Route exact path="/characters">
+        <SearchForm></SearchForm>
         <CharacterList/>
       </Route>
       
