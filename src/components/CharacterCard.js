@@ -1,7 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
 
-
 const MyDiv = styled.div`
   width: 300px;
   height: 500px;
@@ -9,10 +8,11 @@ const MyDiv = styled.div`
   color: #66e0ff;
   border-radius: 20px;
   margin: 10px 0px;   
-`
+`   //end of MyDiv
+
 const ImgDiv = styled.div`  
-  border-radius: 20px;   
-`
+  border-radius: 20px;
+`   //end ImgDiv
 
 export default function CharacterCard({character}) {
   const {name, species, gender, image} = character;

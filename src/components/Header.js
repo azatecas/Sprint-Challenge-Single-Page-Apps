@@ -1,19 +1,18 @@
 import React from "react";
-
 import { Route, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 const MyLi = styled.li`
-list-style: none;
-font-size: 30px;
-color: #66e0ff;
-`
+  list-style: none;
+  font-size: 30px;
+  color: #66e0ff;
+`  //end of MyLi
 
 const MyUl = styled.ul`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-`
+`   //end of MyUI
 
 export default function Header() {
   return (

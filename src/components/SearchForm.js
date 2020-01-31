@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 
 export default function SearchForm(props) {
-
-
-  
-
   const handleSubmit = e => {
     e.preventDefault(); 
   }  
