@@ -1,10 +1,18 @@
 import React from "react";
+import styled from 'styled-components';
+
+
+const Title = styled.h1`
+  color: #66e0ff;
+  font-size: 30px;
+  `
+
 
 export default function WelcomePage() {
   return (
     <section className="welcome-page">
       <header>
-        <h1>Welcome to the ultimate fan site!</h1>
+        <Title>Welcome to the ultimate fan site!</Title>
         <img
           className="main-img"
           src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
