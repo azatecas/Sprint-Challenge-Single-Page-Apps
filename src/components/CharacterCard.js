@@ -5,12 +5,12 @@ export default function CharacterCard({character}) {
 
   return (
     <div>
-    <div>
-      <img src={image} alt={`image of ${name}`}/>
-    </div>
-      <h1>{name}</h1>
-      <h2>{species}</h2>
-      <h2>{gender}</h2>
+      <div>
+        <img src={image} alt={`image of ${name}`}/>
+      </div>
+        <h1>{name}</h1>
+        <h2>{species}</h2>
+        <h2>{gender}</h2>
     </div>
   );
 }
