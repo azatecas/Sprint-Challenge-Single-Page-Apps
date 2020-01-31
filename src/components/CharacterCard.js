@@ -15,7 +15,7 @@ const ImgDiv = styled.div`
 `
 
 export default function CharacterCard({character}) {
-  const {name, species, gender, image } = character;
+  const {name, species, gender, image} = character;
 
   return (
     <MyDiv>

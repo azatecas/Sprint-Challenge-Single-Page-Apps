@@ -54,7 +54,7 @@ export default function CharacterList() {
     <SearchForm search={search} handleChange={handleChange}/>      
     <StyleSection >
       {characters.map(item => {
-        return <CharacterCard character={item} />
+        return <CharacterCard character={item} key={item.id}/>
       })}
     </StyleSection>
     </div>
